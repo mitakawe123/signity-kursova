@@ -1,0 +1,164 @@
+.disabled {
+	cursor: not-allowed;
+}
+
+.chat {
+	width: 340px;
+	height: 500px;
+	background: #ffffff;
+	box-shadow: -8px 34px 224px rgba(0, 0, 0, 0.14);
+	border-radius: 30px;
+	margin-left: -40px;
+	z-index: 2;
+	position: relative;
+	padding: 1.5rem;
+}
+
+.chat-anim {
+	width: 340px;
+	height: 500px;
+	background: #ffffff;
+	box-shadow: -8px 34px 224px rgba(0, 0, 0, 0.14);
+	border-radius: 30px;
+	right: -170px;
+	top: 12.5%;
+	z-index: 2;
+	position: absolute;
+	padding: 1.5rem;
+}
+
+.webcam {
+	width: 1300px;
+	height: 700px;
+	object-fit: cover;
+	border-radius: 30px;
+}
+
+.webcam-sug {
+	height: 70%;
+	width: 70%;
+	object-fit: cover;
+	border-radius: 30px;
+}
+
+.anim-hero {
+	position: absolute;
+	width: 70%;
+	height: 70%;
+	top: 12.5%;
+	bottom: 17.5%;
+	left: 10%;
+	right: 10%;
+	background: linear-gradient(
+		274.18deg,
+		#eeeeee 8.93%,
+		rgba(238, 238, 238, 0) 158.98%
+	);
+	border-radius: 30px;
+}
+
+.buttons-center {
+	margin-top: -20px;
+}
+
+.delLastChar,
+.delEntireRow {
+	position: absolute;
+	bottom: 0;
+}
+
+.delLastChar {
+	left: 0;
+}
+
+.delEntireRow {
+	right: 0;
+}
+
+.makeSugText {
+	margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 1650px) {
+	.webcam {
+		margin-left: 7.5%;
+		width: 1300px;
+		height: 650px;
+		object-fit: cover;
+		border-radius: 30px;
+	}
+	.chat {
+		margin-right: 2.5%;
+	}
+	.chat-anim {
+		top: 7.5%;
+	}
+	.reset-chat {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.delLastChar,
+	.delEntireRow {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		position: relative;
+	}
+	.delLastChar {
+		padding-bottom: 1rem;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.webcam {
+		margin-left: 7.5%;
+		width: 1100px;
+		height: 560px;
+		object-fit: cover;
+		border-radius: 30px;
+	}
+	.chat {
+		margin-right: 2.5%;
+	}
+}
+
+@media only screen and (max-width: 1250px) {
+	/* .chat-anim {
+		display: none;
+	} */
+	.chat {
+		margin-right: 2.5%;
+	}
+	.webcam {
+		margin-left: 7.5%;
+		width: 900px;
+		height: 560px;
+		object-fit: cover;
+		border-radius: 30px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.chat-anim {
+		display: none;
+	}
+	.chat {
+		margin-right: 5%;
+	}
+	.webcam {
+		margin-left: 7.5%;
+		width: 925px;
+		height: 475px;
+		object-fit: cover;
+		border-radius: 30px;
+	}
+	.chat {
+		width: 290px;
+		height: 450px;
+	}
+	.chat-anim {
+		width: 290px;
+		height: 425px;
+		top: 3%;
+	}
+}

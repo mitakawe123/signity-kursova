@@ -1,0 +1,46 @@
+.message-icon {
+	display: none;
+}
+
+@media only screen and (max-width: 500px) {
+	.main-picture,
+	.about-us-btn,
+	.main-icon,
+	.chat,
+	.chat-anim,
+	.camera-section {
+		display: none;
+	}
+	.main-container {
+		margin: 0 10px 0 10px;
+		height: 100vh;
+	}
+	.main-page-btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	.motto {
+		text-align: center;
+	}
+	.message-icon,
+	.chat-system {
+		display: flex;
+	}
+	.message-icon {
+		position: absolute;
+		top: 40px;
+		left: 20px;
+	}
+	.anim-hero {
+		margin-left: 5%;
+	}
+	.section-suggestion {
+		width: 100vw;
+	}
+	.askingRegister {
+		width: 100%;
+		left: 5%;
+	}
+}
