@@ -389,7 +389,8 @@ function CameraMode() {
     ) {
       const camera = new Camera.Camera(webcamRef.current.video, {
         onFrame: async () => {
-          await hands.send({ image: webcamRef.current.video });
+          if (webcamRef.current && webcamRef.current.video)
+            await hands.send({ image: webcamRef.current.video });
         },
         width: 640,
         height: 480,
