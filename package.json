@@ -2,9 +2,6 @@
   "name": "signlanguage",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "16.10.0"
-  },
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@emotion/react": "^11.5.0",
